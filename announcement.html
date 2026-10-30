@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CHAPTER 1 - ANNOUNCEMENT</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #050510;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            min-height: 100vh;
+            padding: 40px 15px;
+        }
+
+        .container {
+            max-width: 750px;
+            margin: auto;
+            padding: 30px 20px;
+            background: #101025;
+            border: 2px solid #00ffff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px #00ffff;
+        }
+
+        h1 {
+            color: #00ffff;
+            font-size: 32px;
+            margin-bottom: 25px;
+            text-shadow: 0 0 10px #00ffff,
+                         0 0 25px #0088ff;
+        }
+
+        h2 {
+            color: #ff00ff;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px #ff00ff;
+        }
+
+        p {
+            color: white;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        video {
+            width: 100%;
+            max-width: 600px;
+            border: 2px solid #00ffff;
+            border-radius: 12px;
+            box-shadow: 0 0 20px #00ffff;
+        }
+
+        .download-btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 15px 30px;
+            color: #00ffff;
+            background: transparent;
+            border: 2px solid #00ffff;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            box-shadow: 0 0 15px #00ffff;
+            transition: 0.3s;
+        }
+
+        .download-btn:hover {
+            color: black;
+            background: #00ffff;
+            box-shadow: 0 0 30px #00ffff;
+        }
+
+        footer {
+            margin-top: 30px;
+            color: #ff00ff;
+            text-shadow: 0 0 10px #ff00ff;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>CHAPTER 1 - ANNOUNCEMENT</h1>
+
+        <h2>IMPORTANT VIDEO</h2>
+
+        <p>
+            Watch the announcement video below.
+            Click the download button to save the video
+            to your device.
+        </p>
+
+        <video controls preload="metadata">
+            <source src="./MOBILE%20OUTPUT.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+
+        <br>
+
+        <a href="./MOBILE%20OUTPUT.mp4"
+           download="CHAPTER-1-ANNOUNCEMENT.mp4"
+           class="download-btn">
+
+            ⬇ DOWNLOAD VIDEO
+
+        </a>
+
+        <footer>
+            <h3>THANK YOU FOR WATCHING!</h3>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
